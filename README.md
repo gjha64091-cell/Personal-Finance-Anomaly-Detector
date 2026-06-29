@@ -2,7 +2,7 @@ Personal Finance Anomaly Detector & Budget Variance Engine 🚀
 
 An end-to-end data analytics pipeline designed to detect unusual spending patterns, financial outliers, and budget breaches in transactional datasets. This system leverages dual-layer statistical validation (**Z-Score** & **Interquartile Range - IQR**), maintains a relational storage schema using **SQL**, and provides dynamic, interactive dashboards for auditing.
 
-🎯 Project Overview
+🎯 Project Overview :
 In real-world financial systems, identifying fraudulent activities, system glitches, or sudden overspending manually is highly inefficient. This project automates the entire analytical workflow:
 1. Data Ingestion & Simulation: Simulates realistic transactional data while embedding complex statistical anomalies.
 2. Mathematical Analysis: Employs a hybrid model (Z-Score + IQR) to identify mathematical anomalies grouped by domain-specific categories.
@@ -35,8 +35,8 @@ Processed outputs are structured and migrated into three core relational tables 
 
  📁 Repository Structure
 ```bash
-├── generate_data.py       # Data Generation Layer (Simulates 500+ records)
-├── anomaly_detector.py    # Analytics Core Engine (Applies Z-Score + IQR + Plotly)
-├── sql_db_sync.py         # Relational DB Sync Layer & SQL Verification Queries
-├── requirements.txt       # Production System Dependencies
-└── README.md              # Professional Project Documentation
+├── generate_data.py       
+├── anomaly_detector.py    
+├── sql_db_sync.py         
+├── requirements.txt       
+└── README.md              

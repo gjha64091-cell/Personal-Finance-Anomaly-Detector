@@ -28,7 +28,7 @@ To ensure absolute accuracy, the system avoids static hardcoded thresholds and u
   Any transaction exceeding this fence is instantly isolated. Highly resilient to heavy skewness.
 
 2. SQL RDBMS Architecture
-Processed outputs are structured and migrated into three core relational tables inside `finance.db`:-
+Processed outputs are structured and migrated into three core relational tables inside `finance.db`:
 -`all_transactions`: Complete raw transaction ledger.
 - `detected_anomalies`: Isolated outlier points flagged by the algorithms for audit reviews.
 - `monthly_budget_report`: Roll-up aggregations mapping total monthly spending against predefined targets to evaluate financial health.

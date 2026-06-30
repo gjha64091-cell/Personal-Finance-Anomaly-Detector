@@ -9,7 +9,7 @@ In real-world financial systems, identifying fraudulent activities, system glitc
 3. Database Standardization: Synchronizes raw and processed logs into structured RDBMS schemas using optimized SQL queries.
 4. Interactive BI Layer: Triggers responsive data visualizations mapping actual expenses against operational budgets.
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Personal-Finance.png)
 
 💻 Tech Stack & Tools Used
 - Language: Python 3.x
